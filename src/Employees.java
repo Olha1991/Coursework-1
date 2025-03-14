@@ -57,7 +57,7 @@ public class Employees {
         return "Employee " + (id + 1) + " - " +
                 firstName + " " +
                 lastName +
-                ", department = " + department +
-                ", salary = " + salary;
+                ", department: " + department +
+                ", salary - $" + salary;
     }
 }
